@@ -347,7 +347,7 @@ function drawFilledRectangle(r) {
     // (0, 0) is the top left corner of the monster.
     ctx.fillRect(0, 0, r.width, r.height);
 
-    // TODO: Acadview Solution
+    // load image/avatar and draw it on canvas.
     var img = document.getElementById("jugador");
     ctx.drawImage(img,0,0,40,40);
   
